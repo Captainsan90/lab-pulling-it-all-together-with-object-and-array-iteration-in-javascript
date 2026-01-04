@@ -1,4 +1,3 @@
-// Keep your gameObject function at the top
 function gameObject() {
     return {
         home: {
@@ -46,7 +45,7 @@ function shoeSize(playerName) {
     }
 }
 
-// --- 3.2 Retrieve Team Information ---
+//Retrieve Team Information ---
 
 function teamColors(teamName) {
     const data = gameObject();
@@ -62,7 +61,7 @@ function teamNames() {
     return [data.home.teamName, data.away.teamName];
 }
 
-// --- 3.3 Retrieve Player Numbers and Stats ---
+//Retrieve Player Numbers and Stats ---
 
 function playerNumbers(teamName) {
     const data = gameObject();
@@ -86,8 +85,6 @@ function playerStats(playerName) {
     }
 }
 
-// --- 3.4 Advanced Challenge ---
-
 function bigShoeRebounds() {
     const data = gameObject();
     let maxShoe = 0;
@@ -105,7 +102,7 @@ function bigShoeRebounds() {
     return rebounds;
 }
 
-// --- Bonus Challenges ---
+//Bonuss ---
 
 function mostPointsScored() {
     const data = gameObject();
